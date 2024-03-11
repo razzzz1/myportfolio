@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    background-color: blue;  
+    height: 190px;
+    
+}
+nav {
+    justify-content: space-evenly;
+    
+}
+footer {
+    text-align: center;
+    background-color: aqua;
+    height: 190px;
+    justify-content: center;
+    display: flex;
+}
