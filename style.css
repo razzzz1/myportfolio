@@ -1,17 +1,83 @@
-h1{
+h1 {
     text-align: center;
-    background-color: blue;  
-    height: 190px;
-    
+    color: palevioletred;
+    font-size: 60px;
+}
+p {
+    font-size: 50px;
+    color: blue;
 }
 nav {
-    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: x-large;
+    margin: solid black 5px;
+}
+ul {
+    font-size: 70px;
+    list-style-type: none;
     
 }
 footer {
-    text-align: center;
-    background-color: aqua;
-    height: 190px;
-    justify-content: center;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: x-large;
+    margin: solid black 5px;
+    
 }
+.finish {
+    text-align: center;
+    font-size: 50px;
+    
+}
+h2 {
+    color: palevioletred;
+    font-size: 70px;
+}
+body {
+    background-color: burlywood;
+}
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 40px;
+    }
+    ul {
+        font-size: 60px;
+    }
+    footer {
+        font-size: 60px;
+    }
+  }
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 30px;
+    }
+    ul {
+        font-size: 50px;
+    }
+    footer {
+        font-size: 50px;
+    }
+  }
