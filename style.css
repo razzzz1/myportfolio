@@ -15,10 +15,14 @@ nav {
     width: 100%;
     font-size: x-large;
     margin: solid black 5px;
+    height: 90px;
 }
-ul {
+.projects {
     font-size: 70px;
-    list-style-type: none;
+    padding: 10px;
+    margin: solid black 7px;
+    text-align: center;
+    
     
 }
 footer {
@@ -39,10 +43,29 @@ footer {
 h2 {
     color: palevioletred;
     font-size: 70px;
+    height: 100px;
 }
 body {
     background-color: burlywood;
 }
+.fun {
+    display: flex;
+    flex-direction: column;
+}
+.meroni {
+    display: flex;
+    flex-direction: column;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    font-size: 60px;
+}
+.menu {
+    margin-right: 2px;
+}  
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
   and (min-device-width: 1200px) 
